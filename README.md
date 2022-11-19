@@ -7,6 +7,9 @@ Buy, Sell and list NFTs representing fractional real estate ownership securely o
 
 - Note that we do not copy nor compete with RealT. Rather we are complementary: We are a marketplace where Token holder can exchange and list tokens. And leverage defi with their illiquid assets. We have Real estate partners in different countries and combine tokens from different protocols.
 
+### TODO: (for Aurelien)
+ALchemy doesnt have NEAR, need to find another provider
+
 ## Contracts
 NEAR Testnet:
 - *EstateT contract address: XXX*
