@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@opengsn/contracts/src/BaseRelayRecipient.sol";
 
-contract EstateT is ERC721{
+contract USDC is ERC20, ERC20Burnable{
 
     address owner;
     constructor(address forwarder_) ERC20("USDC", "USDC") {
