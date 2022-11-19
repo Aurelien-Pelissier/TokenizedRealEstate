@@ -6,19 +6,27 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@opengsn/contracts/src/BaseRelayRecipient.sol";
 
-contract EstateT is ERC721{
+contract EstateT is ERC721, AccessControlUpgradeable, ERC721Upgradeable, ERC721URIStorageUpgradeable, ERC721EnumerableUpgradeable{
 
     address owner;
-    constructor(address forwarder_) ERC20("USDC", "USDC") {
-        owner = msg.sender;
-    }
+    mapping (uint256 => uint256[]) public Estate_map;
+    mapping (uint256 => string) public Estate_name;
 
-    function decimals() public view virtual override returns (uint8) {
-        return 6;
-    }
+    function initialize() public initializer
+    {
+        __ERC721_init("EstateToken", "EstateT");
+        owner = msg.sender; //The owner can withdraw all the money from commission
+    } 
 
-    function mint(address to, uint256 amount) public {
-        _mint(to, amount);
+    function mint_SolarT(address _to, string memory _tokenURI) public onlyP2P
+    //URI  is a json string that contains the relevant infos
+    {
+        uint256 newTokenID = _tokenIds.current();
+        _mint(_to,newTokenID);
+        _setTokenURI(newTokenID, _tokenURI);
+        Last_update_SolarT[newTokenID] = block.timestamp;
+        _tokenIds.increment();
+
     }
 
 }

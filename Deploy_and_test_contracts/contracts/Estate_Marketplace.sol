@@ -6,19 +6,15 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@opengsn/contracts/src/BaseRelayRecipient.sol";
 
-contract Estate_MarketPlace is ERC721{
+contract Estate_MarketPlace is Initializable{
 
+    address public EstateT_contract_address;
     address owner;
-    constructor(address forwarder_) ERC20("USDC", "USDC") {
-        owner = msg.sender;
-    }
-
-    function decimals() public view virtual override returns (uint8) {
-        return 6;
-    }
-
-    function mint(address to, uint256 amount) public {
-        _mint(to, amount);
-    }
+    
+    function initialize(address EstateT_contract_address_) public initializer
+    {
+        owner = msg.sender; //The owner can withdraw all the money from commission
+        EstateT_contract_address = EstateT_contract_address_;
+    } 
 
 }
