@@ -1,5 +1,5 @@
 # MarketPlace for Tokenized RealEstate
-Buy, Sell and list NFTs representing fractional real estate ownership securely on the Blockchain.
+Buy, Sell and list NFTs representing fractional real estate ownership affordably and securely on the Blockchain.
 - Get your fraction of the rent every month directly in your wallet !
 - Exit your investment easily on our marketplace.
 - Compound your rent revenues automatically.
