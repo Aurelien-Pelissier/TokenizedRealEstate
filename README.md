@@ -8,10 +8,11 @@
 - Note that we do not copy nor compete with RealT. Rather we are complementary: We are a marketplace where Token holder can exchange and list tokens. And leverage defi with their illiquid assets. We have Real estate partners in different countries and combine tokens from different protocols
 
 ## Contracts
-Near Testnet:
+NEAR Testnet:
 - *EstateT contract address: XXX*
 - *MarketPlace contract address: XXX*
-Near Mainet:
+- 
+NEAR Mainet:
 - *EstateT contract address: XXX*
 - *MarketPlace contract address: XXX*
 
