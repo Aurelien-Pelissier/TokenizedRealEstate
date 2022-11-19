@@ -1,11 +1,11 @@
-# Marketplace for Tokenized RealEstate
-Buy, Sell and list NFTs representing fractional real estate ownership securely on the Blockchain.
+# MarketPlace for Tokenized RealEstate
+Buy, Sell and list NFTs representing fractional real estate ownership affordably and securely on the Blockchain.
 - Get your fraction of the rent every month directly in your wallet !
 - Exit your investment easily on our marketplace.
 - Compound your rent revenues automatically.
 - Borrow liquidity using your NFT as collateral.
 
-- Note that we do not copy nor compete with RealT. Rather we are complementary: We are a marketplace where Token holder can exchange and list tokens. And leverage defi with their illiquid assets. We have Real estate partners in different countries and combine tokens from different protocols.
+*Note that we do not copy nor compete with RealT (https://realt.co/), but rather position ourself as a complementary project. We aim to be a marketplace where users can exchange and list their RealEstate tokens, and leverage the full benefits of Defi with their illiquid assets. We act as a market maker, and combine tokens from different protocols with real estate partners in different countries.*
 
 ## Contracts
 NEAR Testnet:
