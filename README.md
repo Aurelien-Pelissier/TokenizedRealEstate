@@ -5,7 +5,7 @@ Buy, Sell and list NFTs representing fractional real estate ownership securely o
 - Compound your rent revenues automatically.
 - Borrow liquidity using your NFT as collateral.
 
-*Note that we do not copy nor compete with RealT ([https://realt.co/][https://realt.co/]). Rather we are complementary: We are a marketplace where Token holder can exchange and list tokens. And leverage defi with their illiquid assets. We have Real estate partners in different countries and combine tokens from different protocols.*
+*Note that we do not copy nor compete with RealT (https://realt.co/). Rather we are complementary: We are a marketplace where Token holder can exchange and list tokens. And leverage defi with their illiquid assets. We have Real estate partners in different countries and combine tokens from different protocols.*
 
 ## Contracts
 NEAR Testnet:
