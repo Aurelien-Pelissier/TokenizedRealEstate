@@ -1,5 +1,5 @@
 # Marketplace for Tokenized RealEstate
-- Buy, Sell and list Tokens representing fractional Real estate ownership.
+Buy, Sell and list Tokens representing fractional Real estate ownership.
 - Get your fraction of the rent every month directly in your wallet !
 - Exit your investment easily on our marketplace.
 - Compound your rent revenues automatically.
