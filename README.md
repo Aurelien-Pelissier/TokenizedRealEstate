@@ -6,8 +6,8 @@
 - Borrow liquidity using your NFT as collateral
 
 ## Contracts
-EstateT contract address:
-MarketPlace contract address
+- EstateT contract address:
+- MarketPlace contract address
 
 ### TODO: (for jonathan)
 - This time, we have fractional ownership, so the main change you should do on the market place is, instead of having one image per NFTs, you should group them together by property (showing stuff like: 200 tokens available). And then once you click on it, you should see the options from cheapest to most expensive. (ppls may list their NFTs at different prices)
