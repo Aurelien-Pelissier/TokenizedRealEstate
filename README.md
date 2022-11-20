@@ -9,6 +9,11 @@ Buy, Sell and list NFTs representing fractional real estate ownership affordably
 
 ## Contracts
 NEAR Testnet:
+HouseT proxy deployed to: 0xbD2E5F72F4749aecAcDB349Dd7B11F395ab72489
+Deploying FungibleHouse...
+FungibleHouse proxy deployed to: 0x049d01Ab55be450C01e5C9D411e5010FB45617EA
+Deploying BHMarketplace...
+BHMarketplace proxy deployed to: 0x488Fdf38D90f3d476d48A693bF3Beaf539583298
 - *EstateT contract address: XXX*
 - *MarketPlace contract address: XXX*
 
