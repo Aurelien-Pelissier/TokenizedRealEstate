@@ -21,19 +21,10 @@ async function main () {
 
     const owner_ = "0xC117E7247be4830D169da13427311F59BD25d669"; //Aurelien's address
     const use_whitelist = false; //change to false if you dont want whitelist
-    const testnet = false; //change to false if deploying on mainet
-    var trusted_forwarder; //https://docs.biconomy.io/misc/contract-addresses#eip-2771-contracts-trusted-forwarder
+    var trusted_forwarder_address; //https://docs.biconomy.io/misc/contract-addresses#eip-2771-contracts-trusted-forwarder
     var USDC_contract_address;
-    if (testnet == true) 
-    {
-      USDC_contract_address = '0x6544F9dEe64b77cD6cD33eb08Ec17948457c5FeD'; // USDC address on Polygon Testnet (Mumbai) [Contract created by me]
-      trusted_forwarder_address = '0x9399BB24DBB5C4b782C70c2969F58716Ebbd6a3b'; //Forwarder contract on Polygon Testnet (Mumbai)
-    }
-    else
-    {
-      USDC_contract_address = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'; //USDC address on Polygon
-      trusted_forwarder_address = '0x86C80a8aa58e0A4fa09A69624c31Ab2a6CAD56b8'; //Forwarder contract on Polygon
-    }
+    USDC_contract_address = '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802'; // USDC address on Aurora
+    trusted_forwarder_address = '0x9399BB24DBB5C4b782C70c2969F58716Ebbd6a3b'; //Forwarder contract on Polygon Testnet (Mumbai), not available on Aurora
 
 
     // Deploy contracts
